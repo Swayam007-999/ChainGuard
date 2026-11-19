@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ChainGuard Settings</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #181825; color: #cdd6f4;
+      margin: 0; padding: 20px; width: 340px;
+    }
+    h2 { font-size: 16px; margin-top: 0; color: #89b4fa; display: flex; align-items: center; gap: 8px; }
+    .field { margin-bottom: 14px; }
+    label { display: block; font-size: 12px; margin-bottom: 4px; color: #a6adc8; }
+    input {
+      width: 100%; box-sizing: border-box; padding: 8px; border-radius: 6px;
+      background: #1e1e2e; border: 1px solid #45475a; color: #cdd6f4; font-size: 12px; font-family: monospace;
+    }
+    input:focus { outline: none; border-color: #89b4fa; }
+    button {
+      width: 100%; background: #89b4fa; color: #11111b; border: none; padding: 10px;
+      border-radius: 6px; font-weight: bold; cursor: pointer; font-size: 13px; margin-top: 8px;
+    }
+    button:hover { background: #b4befe; }
+    #status { margin-top: 10px; font-size: 12px; text-align: center; color: #a6e3a1; min-height: 16px; }
+  </style>
+</head>
+<body>
+  <h2>🛡️ ChainGuard Paste Guard</h2>
+  <div class="field">
+    <label for="backendUrl">Backend URL</label>
+    <input type="text" id="backendUrl" placeholder="http://127.0.0.1:8000/v1">
+  </div>
+  <div class="field">
+    <label for="extensionKey">Extension API Key (X-ChainGuard-Key)</label>
+    <input type="password" id="extensionKey" placeholder="cg_live_sample_fake_key_...">
+  </div>
+  <div class="field">
+    <label for="fingerprintKey">Fingerprint Key (FINGERPRINT_KEY)</label>
+    <input type="password" id="fingerprintKey" placeholder="fake_fingerprint_hmac_...">
+  </div>
+  <button id="saveBtn">Save Settings</button>
+  <div id="status"></div>
+
+  <script src="options.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+# ChainGuard Backend Direct Dependencies (Pinned Exact Versions)
+# Rule 4: Every dependency is listed with a one-line justification.
+
+fastapi==0.162.2
+# High-performance async web framework for building REST APIs
+
+uvicorn==0.54.0
+# Fast ASGI server implementation for hosting FastAPI applications
+
+pydantic==2.14.3
+# Data validation and settings management using Python type hints
+
+sqlalchemy==2.1.8
+# Object-Relational Mapper (ORM) and parameterized query builder
+
+pyjwt==2.15.1
+# Standard RFC 7519 JSON Web Token encoding and verification library
+
+python-multipart==0.0.33
+# Streaming multipart/form-data parser required for file uploads
+
+pytest==9.2.0
+# Automated test discovery and execution framework
+
+httpx==0.28.1
+# HTTP client library used for integration testing with TestClient
+
+ruff==0.17.4
+# Fast Python linter and code quality checker

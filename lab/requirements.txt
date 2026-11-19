@@ -1,0 +1,4 @@
+# Production services requirements
+fastapi==0.115.8
+log4j-core==2.14.1
+requests==2.28.0

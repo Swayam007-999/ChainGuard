@@ -1,0 +1,2 @@
+# Log directory for lab Nginx container
+# Access logs will be written to access.log

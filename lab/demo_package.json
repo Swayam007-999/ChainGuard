@@ -1,0 +1,9 @@
+{
+  "name": "acme-e-commerce",
+  "version": "1.0.0",
+  "description": "Demo production application with dependencies for Innovathon 2026",
+  "dependencies": {
+    "lodash": "4.17.15",
+    "express": "4.17.1"
+  }
+}

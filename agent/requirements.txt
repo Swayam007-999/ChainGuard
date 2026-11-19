@@ -1,0 +1,11 @@
+# ChainGuard Log Agent Dependencies (Pinned Exact Versions)
+# Rule 4: Every dependency is listed with a one-line justification.
+
+httpx==0.28.1
+# Modern HTTP client library for shipping event batches to the backend
+
+pytest==9.2.0
+# Testing framework for agent log parsing, token HMAC, and abuse tests
+
+ruff==0.17.4
+# Fast Python linter and code quality validator
